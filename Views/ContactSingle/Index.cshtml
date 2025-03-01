@@ -1,0 +1,241 @@
+@{
+    ViewData["Title"] = "Contacts";
+    Layout = "../Shared/_ContactSingleLayout.cshtml";
+}
+@model IEnumerable<t_Contact>
+
+<div class="container mt-4">
+    <h3>Contacts</h3>
+    <button type="button" id="btnadd" class="btn btn-primary" onclick="clearData();$('#myModal').modal('show');">
+        ✚
+    </button>
+
+    <table class="table table-striped" id="contactTable">
+        <thead class="thead-dark">
+            <tr>
+                <th>Edit</th>
+                <th width="60">Image</th>
+                
+
+                <th>Name</th>
+                <th>Email</th>
+                <th>Group</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Status</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var contact in Model)
+            {
+                <tr style="vertical-align: middle;">
+                    <td>
+                        <button type="button" class="btn btn-info" onclick="editData(@contact.c_ContactId)">
+                            &hellip;
+                        </button>
+                    </td>
+                    <td>
+                        <img src="@Url.Content($"~/contact_images/{(string.IsNullOrEmpty(contact.c_Image) ? "default-user.png" : contact.c_Image)}")"
+                            alt="" class="rounded-circle" width="40" height="40" />
+                    </td>
+
+                    <td>@contact.c_ContactName</td>
+                    <td>@contact.c_Email</td>
+                    <td>@contact.c_Group</td>
+                    <td>@contact.c_Address</td>
+                    <td>@contact.c_Mobile</td>
+                    <td>@contact.c_Status</td>
+                    <td>
+                        <button type="button" class="btn btn-danger" onclick="deleteData(@contact.c_ContactId)">
+                            ✘
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Contact Form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                    onclick="$('#myModal').modal('hide');">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form enctype="multipart/form-data">
+                <div class="modal-body">
+                    <input type="hidden" id="contactid" value="0">
+                    <input type="hidden" id="image" value="">
+
+                    <div class="mt-3">
+                        <label class="control-label" for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                        <div class="text-danger" id="errName"></div>
+                    </div>
+
+                    <div class="mt-3">
+                        <label class="control-label" for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        <div class="text-danger" id="errEmail"></div>
+                    </div>
+
+                    <div class="mt-3">
+                        <label class="control-label" for="address">Address:</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter address">
+                    </div>
+
+                    <div class="mt-3">
+                        <label class="control-label" for="mobile">Mobile:</label>
+                        <input type="text" class="form-control" id="mobile" placeholder="Enter mobile">
+                    </div>
+
+                    <div class="mt-3">
+                        <label class="control-label">Group:</label>
+                        <div>
+                            <input class="group-checkbox" type="checkbox" id="relative" value="Relative"> Relative
+                            <input class="group-checkbox" type="checkbox" id="friend" value="Friend"> Friend
+                            <input class="group-checkbox" type="checkbox" id="social" value="Social"> Social
+                            <input class="group-checkbox" type="checkbox" id="professnal" value="Professional">
+                            Professional
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <label class="control-label">Status:</label>
+                        <select id="status" class="form-control">
+                            <option value="Favourate">Favourate</option>
+                            <option value="Active">Active</option>
+                            <option value="Inactive">Inactive</option>
+                        </select>
+                        <div class="text-danger" id="errGroup"></div>
+                    </div>
+
+                    <div class="mt-3">
+                        <label class="control-label" for="image">Image:</label>
+                        <input type="file" class="form-control" id="Image">
+                        <div>
+                            <img id="img" height="100">
+                        </div>
+                    </div>
+
+                    <div id="responseModalMessage"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        onclick="$('#myModal').modal('hide');">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="saveData()" id="btnSave">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    function saveData() {
+        var user = JSON.parse(sessionStorage.getItem("user"));
+        var formData = new FormData();
+
+        formData.append("c_UserId", @Context.Session.GetInt32("UserId"));
+        formData.append("c_ContactName", $('#name').val());
+        formData.append("c_Email", $('#email').val());
+        formData.append("c_Status", $('#status').val());
+        formData.append("c_Address", $('#address').val());
+        formData.append("c_Mobile", $('#mobile').val());
+        formData.append("c_ContactId", $('#contactid').val());
+
+        let selectedGroups = '';
+        $('.group-checkbox:checked').each(function () {
+            selectedGroups += $(this).val() + ',';
+        });
+        formData.append("c_Group", selectedGroups.slice(0, -1));
+
+        var fileInput = $('#Image')[0].files[0];
+        if (fileInput) {
+            formData.append("ContactPicture", fileInput);
+        } else {
+            formData.append("c_Image", $('#image').val());
+        }
+
+        $.ajax({
+            url: "/ContactSingle/Create/",
+            type: 'POST',
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                $('#myModal').modal('hide');
+                window.location.reload();
+            },
+            error: function (xhr, status, error) {
+                var errors = JSON.parse(xhr.responseText);
+                $('#errName').text(errors.message.c_ContactName || "");
+                $('#errEmail').text(errors.message.c_Email || "");
+                $('#errGroup').text(errors.message.c_Group || "");
+            }
+        });
+    }
+
+    function editData(id) {
+        $('#myModal').modal('show');
+        clearData();
+
+        $.ajax({
+            url: "/ContactSingle/GetContactById/" + id,
+            type: 'GET',
+            contentType: "application/json",
+            processData: false,
+            success: function (response) {
+                $('#contactid').val(response.c_ContactId);
+                $('#name').val(response.c_ContactName);
+                $('#email').val(response.c_Email);
+                $('#address').val(response.c_Address);
+                $('#status').val(response.c_Status);
+                $('#mobile').val(response.c_Mobile);
+                $('#image').val(response.c_Image);
+                $('#img').attr('src', "../../contact_images/" + response.c_Image);
+
+                let valuesToCheck = response.c_Group.split(',');
+                valuesToCheck.forEach(function (value) {
+                    $(`.group-checkbox[value="${value}"]`).prop('checked', true);
+                });
+            },
+            error: function (xhr, status, error) {
+                $('#responseModalMessage').addClass("alert alert-danger").text('Error: ' + xhr.responseText);
+            }
+        });
+    }
+
+    function deleteData(id, name) {
+        if (confirm("Do you want to delete " + name + "?")) {
+            $.ajax({
+                url: "/ContactSingle/Delete/" + id,
+                type: 'GET',
+                contentType: "application/json",
+                processData: false,
+                success: function () {
+                    window.location.reload();
+                },
+                error: function (xhr, status, error) {
+                    $('#responseModalMessage').addClass("alert alert-danger").text('Error: ' + xhr.responseText);
+                }
+            });
+        }
+    }
+
+    function clearData() {
+        $('#contactid').val(0);
+        $('#name').val('');
+        $('#email').val('');
+        $('#address').val('');
+        $('#mobile').val('');
+        $('.group-checkbox').prop('checked', false);
+        $('#errName, #errEmail, #errGroup').text("");
+    }
+</script>

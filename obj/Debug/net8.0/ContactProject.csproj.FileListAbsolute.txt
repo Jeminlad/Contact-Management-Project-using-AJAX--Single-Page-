@@ -1,0 +1,271 @@
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/appsettings.Development.json
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/appsettings.json
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/ContactProject.staticwebassets.runtime.json
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/ContactProject.exe
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/ContactProject.deps.json
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/ContactProject.runtimeconfig.json
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/ContactProject.dll
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/ContactProject.pdb
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.GeneratedMSBuildEditorConfig.editorconfig
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.AssemblyInfoInputs.cache
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.AssemblyInfo.cs
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.csproj.CoreCompileInputs.cache
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.MvcApplicationPartsAssemblyInfo.cache
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cache
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cs
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/staticwebassets.build.json
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/staticwebassets.development.json
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.build.ContactProject.props
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ContactProject.props
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ContactProject.props
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/staticwebassets.pack.json
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/scopedcss/bundle/ContactProject.styles.css
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/scopedcss/projectbundle/ContactProject.bundle.scp.css
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.dll
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/refint/ContactProject.dll
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.pdb
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.genruntimeconfig.cache
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ref/ContactProject.dll
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactProject.csproj.AssemblyReference.cache
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+D:/Clarent/Dotnet/ContactProject/bin/Debug/net8.0/Npgsql.dll
+D:/Clarent/Dotnet/ContactProject/obj/Debug/net8.0/ContactP.15F5DABD.Up2Date
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/appsettings.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/ContactProject.staticwebassets.runtime.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/ContactProject.staticwebassets.endpoints.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/ContactProject.exe
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/ContactProject.deps.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/ContactProject.runtimeconfig.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/ContactProject.dll
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/ContactProject.pdb
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/bin/Debug/net8.0/Npgsql.dll
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.csproj.AssemblyReference.cache
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.AssemblyInfoInputs.cache
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.AssemblyInfo.cs
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.csproj.CoreCompileInputs.cache
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cache
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cs
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/scopedcss/bundle/ContactProject.styles.css
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/scopedcss/projectbundle/ContactProject.bundle.scp.css
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.build.ContactProject.props
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ContactProject.props
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ContactProject.props
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactP.15F5DABD.Up2Date
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.dll
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/refint/ContactProject.dll
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.pdb
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ContactProject.genruntimeconfig.cache
+C:/Users/ADMIN/Downloads/ContactProject/ContactProject/obj/Debug/net8.0/ref/ContactProject.dll
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/appsettings.Development.json
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/appsettings.json
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/ContactProject.staticwebassets.runtime.json
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/ContactProject.staticwebassets.endpoints.json
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/ContactProject.exe
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/ContactProject.deps.json
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/ContactProject.runtimeconfig.json
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/ContactProject.dll
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/ContactProject.pdb
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+F:/Download 003/ContactProject-main/ContactProject-main/bin/Debug/net8.0/Npgsql.dll
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.csproj.AssemblyReference.cache
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.GeneratedMSBuildEditorConfig.editorconfig
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.AssemblyInfoInputs.cache
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.AssemblyInfo.cs
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.csproj.CoreCompileInputs.cache
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.MvcApplicationPartsAssemblyInfo.cache
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cache
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cs
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/scopedcss/bundle/ContactProject.styles.css
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/scopedcss/projectbundle/ContactProject.bundle.scp.css
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets.build.json
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets.development.json
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.build.ContactProject.props
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ContactProject.props
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ContactProject.props
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/staticwebassets.pack.json
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactP.15F5DABD.Up2Date
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.dll
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/refint/ContactProject.dll
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.pdb
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ContactProject.genruntimeconfig.cache
+F:/Download 003/ContactProject-main/ContactProject-main/obj/Debug/net8.0/ref/ContactProject.dll
+/workspaces/ContactProject-main/bin/Debug/net8.0/appsettings.Development.json
+/workspaces/ContactProject-main/bin/Debug/net8.0/appsettings.json
+/workspaces/ContactProject-main/bin/Debug/net8.0/ContactProject.staticwebassets.runtime.json
+/workspaces/ContactProject-main/bin/Debug/net8.0/ContactProject
+/workspaces/ContactProject-main/bin/Debug/net8.0/ContactProject.deps.json
+/workspaces/ContactProject-main/bin/Debug/net8.0/ContactProject.runtimeconfig.json
+/workspaces/ContactProject-main/bin/Debug/net8.0/ContactProject.dll
+/workspaces/ContactProject-main/bin/Debug/net8.0/ContactProject.pdb
+/workspaces/ContactProject-main/bin/Debug/net8.0/FluentValidation.dll
+/workspaces/ContactProject-main/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/workspaces/ContactProject-main/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/workspaces/ContactProject-main/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/workspaces/ContactProject-main/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/workspaces/ContactProject-main/bin/Debug/net8.0/Npgsql.dll
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.csproj.AssemblyReference.cache
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.AssemblyInfoInputs.cache
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.AssemblyInfo.cs
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.csproj.CoreCompileInputs.cache
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cache
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.RazorAssemblyInfo.cs
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.sourcelink.json
+/workspaces/ContactProject-main/obj/Debug/net8.0/staticwebassets.build.json
+/workspaces/ContactProject-main/obj/Debug/net8.0/staticwebassets.development.json
+/workspaces/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
+/workspaces/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.build.ContactProject.props
+/workspaces/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ContactProject.props
+/workspaces/ContactProject-main/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ContactProject.props
+/workspaces/ContactProject-main/obj/Debug/net8.0/staticwebassets.pack.json
+/workspaces/ContactProject-main/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/workspaces/ContactProject-main/obj/Debug/net8.0/scopedcss/bundle/ContactProject.styles.css
+/workspaces/ContactProject-main/obj/Debug/net8.0/scopedcss/projectbundle/ContactProject.bundle.scp.css
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactP.15F5DABD.Up2Date
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.dll
+/workspaces/ContactProject-main/obj/Debug/net8.0/refint/ContactProject.dll
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.pdb
+/workspaces/ContactProject-main/obj/Debug/net8.0/ContactProject.genruntimeconfig.cache
+/workspaces/ContactProject-main/obj/Debug/net8.0/ref/ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\appsettings.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\ContactProject.staticwebassets.runtime.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\ContactProject.staticwebassets.endpoints.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\ContactProject.exe
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\ContactProject.deps.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\ContactProject.runtimeconfig.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\ContactProject.pdb
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\bin\Debug\net8.0\Npgsql.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\scopedcss\bundle\ContactProject.styles.css
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\scopedcss\projectbundle\ContactProject.bundle.scp.css
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets\msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets\msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets\msbuild.build.ContactProject.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ContactProject.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ContactProject.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactP.15F5DABD.Up2Date
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\refint\ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.pdb
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ContactProject.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject1\obj\Debug\net8.0\ref\ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\appsettings.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.staticwebassets.runtime.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.exe
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.deps.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.runtimeconfig.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.pdb
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\bin\Debug\net8.0\Npgsql.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\scopedcss\bundle\ContactProject.styles.css
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\scopedcss\projectbundle\ContactProject.bundle.scp.css
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.build.ContactProject.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ContactProject.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ContactProject.props
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactP.15F5DABD.Up2Date
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\refint\ContactProject.dll
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.pdb
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\C#\MVC\ContactProject using AJAX\obj\Debug\net8.0\ref\ContactProject.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\appsettings.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.staticwebassets.runtime.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.exe
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.deps.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.runtimeconfig.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\ContactProject.pdb
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.csproj.AssemblyReference.cache
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.AssemblyInfoInputs.cache
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.AssemblyInfo.cs
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.csproj.CoreCompileInputs.cache
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cache
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cs
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.build.ContactProject.props
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ContactProject.props
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ContactProject.props
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\scopedcss\bundle\ContactProject.styles.css
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\scopedcss\projectbundle\ContactProject.bundle.scp.css
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactP.15F5DABD.Up2Date
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\refint\ContactProject.dll
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.pdb
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.genruntimeconfig.cache
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ref\ContactProject.dll
