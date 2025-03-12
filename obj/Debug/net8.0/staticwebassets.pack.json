@@ -5,8 +5,32 @@
       "PackagePath": "staticwebassets\\ContactProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\d@gmail.com.png",
+      "PackagePath": "staticwebassets\\contact_images\\d@gmail.com.png"
+    },
+    {
       "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\default-user.png",
       "PackagePath": "staticwebassets\\contact_images\\default-user.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\jeminlad2003@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\jeminlad2003@gmail.com.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\pqr@gmail.com.png",
+      "PackagePath": "staticwebassets\\contact_images\\pqr@gmail.com.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\test1@gamil.com.png",
+      "PackagePath": "staticwebassets\\contact_images\\test1@gamil.com.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\test3@gamil.com.png",
+      "PackagePath": "staticwebassets\\contact_images\\test3@gamil.com.png"
+    },
+    {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\test5@gamil.com.png",
+      "PackagePath": "staticwebassets\\contact_images\\test5@gamil.com.png"
     },
     {
       "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\contact_images\\test@gamil.com.png",
@@ -23,6 +47,14 @@
     {
       "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\lib\\Kendo Library\\kendo.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\Kendo Library\\kendo.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\lib\\Kendo Library\\kendo.default-v2.min.css",
+      "PackagePath": "staticwebassets\\lib\\Kendo Library\\kendo.default-v2.min.css"
     },
     {
       "Id": "C:\\Users\\Mayur\\Desktop\\Casepoint\\Practicals\\.NET Core MVC\\ContactProject using AJAX\\wwwroot\\lib\\bootstrap\\LICENSE",

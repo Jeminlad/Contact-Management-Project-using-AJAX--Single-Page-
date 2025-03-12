@@ -11,7 +11,7 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly IValidator<RegisterVM> _validator;
 
-    public HomeController(ILogger<HomeController> logger, IValidator<RegisterVM> validator )
+    public HomeController(ILogger<HomeController> logger, IValidator<RegisterVM> validator)
     {
         _logger = logger;
         _validator = validator;
@@ -22,21 +22,15 @@ public class HomeController : Controller
         return View();
     }
 
-
-
     public IActionResult Privacy()
     {
         return View();
     }
 
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    public IActionResult Logout()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View();
     }
-
-
 
     public IActionResult FRegister()
     {
@@ -45,7 +39,7 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult FRegister(RegisterVM model)
     {
-        ValidationResult result = _validator.Validate(model);   
+        ValidationResult result = _validator.Validate(model);
         if (!result.IsValid)
         {
             foreach (var error in result.Errors)
@@ -58,4 +52,9 @@ public class HomeController : Controller
         return RedirectToAction("FRegister");
     }
 
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    }
 }

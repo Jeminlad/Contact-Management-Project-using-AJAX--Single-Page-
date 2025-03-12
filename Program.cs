@@ -4,8 +4,6 @@ using ContactProject.Validators;
 using FluentValidation;
 using Npgsql;
 
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,9 +23,9 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+builder.Services.AddControllers();
 builder.Services.AddValidatorsFromAssemblyContaining<RegisterVMValidator>();
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -37,15 +35,12 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseRouting();
+app.UseAuthorization();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseSession();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -1,0 +1,415 @@
+@* @{
+    ViewData["Title"] = "Contacts";
+    Layout = "../Shared/_Welcome.cshtml";
+}
+<div class="container mt-4">
+    <h3>Contacts</h3>
+    <button type="button" id="btnadd" class="k-button k-button-lg k-button-solid-info" onclick="addForm()">✚</button>
+</div>
+<br>
+<div id="grid"></div>
+<span id="notification"></span>
+<div id="myKModal">
+    <form id="contactForm"></form>
+</div>*@
+
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="/lib/Kendo Library/kendo.default-v2.min.css" />
+<script src="/lib/Kendo Library/kendo.all.min.js"></script> *@
+
+
+@*<script>
+    @* $(document).ready(function () {
+        buildForm();
+        loadWindows();
+        loadKendo();
+    }); *@
+
+@* For checking the Kendo UI is Perfectly loaded or not. *@
+@* $(document).ready(function () {
+            if ($.fn.kendoForm) {
+                buildForm();
+                loadWindows();
+                loadKendo();
+            } else {
+                console.error("KendoForm is not available. Ensure kendo.all.min.js is loaded.");
+            }
+        });
+
+    function loadWindows() {
+        $("#myKModal").kendoWindow({
+            width: "600px",
+            title: "Contact Form",
+            visible: false,
+            modal: true,
+            actions: ["Close"]
+        });
+        $("#notification").kendoNotification({
+            allowHideAfter: 1000,
+            width: 300,
+            position: {
+                pinned: true,
+                top: 30,
+                right: 30,
+            }
+        });
+    }
+    function addForm() {
+        var form = $("#contactForm").data("kendoForm");
+
+        $("#contactForm").data("kendoForm").setOptions({
+            formData: {
+                ContactId: "0",
+                Name: "",
+                Email: "",
+                Address: "",
+                Mobile: "",
+                Status: "A",
+                Group: [],
+                Image: null
+            }
+        });
+        openModal();
+    }
+    function editForm(id) {
+        var form = $("#contactForm").getKendoForm();
+        $.ajax({
+            url: "./GetContactById/" + id,
+            type: 'GET',
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                console.log("API Response:", response); // Debugging ke liye
+
+                if (!response) {
+                    $("#notification").getKendoNotification().show("No data found!", "error");
+                    return;
+                }
+
+                if ($("#contactForm").data("kendoForm")) {
+                    $("#contactForm").data("kendoForm").setOptions({
+                        formData: {
+                            ContactId: response.c_ContactId || "0",
+                            Name: response.c_ContactName || "",
+                            Email: response.c_Email || "",
+                            Address: response.c_Address || "",
+                            Mobile: response.c_Mobile || "",
+                            Status: response.c_Status || "Active",
+                            Group: response.c_Group ? response.c_Group.split(",") : [],
+                            Image: response.c_Image || null
+                        }
+                    });
+                } else {
+                    console.error("Kendo Form not initialized properly.");
+                }
+                openModal();
+            },
+            error: function (xhr, status, error) {
+                console.error("Edit Form Error:", xhr.responseText);
+                $("#notification").getKendoNotification().show("Error fetching data!", "error");
+            }
+        });
+    }
+
+    function buildForm() {
+        const validationSuccess = $("#validation-success");
+        $("#contactForm").kendoForm({
+            formData: {
+                ContactId: "0",
+                Name: "",
+                Email: "",
+                Address: "",
+                Mobile: "",
+                Status: "A",
+                Group: [],
+                Image: null
+            },
+            items: [
+                {
+                    field: "ContactId",
+                    label: "",
+                    editor: function (container, options) {
+                        $('<input type="hidden" id="contactid" name="' + options.field + '" value="0" />').appendTo(container);
+                    }
+                },
+                { field: "Name", label: "Name", validation: { required: true } },
+                { field: "Email", label: "Email", validation: { required: true, email: true } },
+                { field: "Address", label: "Address" },
+                { field: "Mobile", label: "Mobile" },
+                {
+                    field: "Status",
+                    label: "Status",
+                    editor: "DropDownList",
+                    editorOptions: { dataSource: ["Favourate", "Active", "Inactive"], optionLabel: "Select Status" }
+                },
+                {
+                    field: "Group",
+                    label: "Group",
+                    editor: "MultiSelect",
+                    editorOptions: { dataSource: ["Relative", "Friend", "Social", "Professional"], placeholder: "Select Group" }
+                },
+                {
+                    field: "Image",
+                    label: "Image:",
+                    editor: function (container, options) {
+                        $('<input type="file" name="' + options.field + '" />')
+                            .appendTo(container)
+                            .kendoUpload();
+                    }
+                },
+            ],
+            buttonsTemplate: '<button type="submit" class="k-button k-button-lg k-button-solid-info">Save</button>' +
+                '<button type="reset" class="k-button k-button-lg k-button-solid-base">Clear</button>',
+
+            validateField: function (e) {
+                validationSuccess.html("");
+            },
+            submit: function (e) {
+                e.preventDefault();
+                const ContactData = new FormData();
+                debugger
+                ContactData.append("c_ContactId", e.model.ContactId);
+                ContactData.append("c_UserId", @Context.Session.GetInt32("UserId"));
+                ContactData.append("c_Contactname", e.model.Name);
+                ContactData.append("c_Email", e.model.Email);
+                ContactData.append("c_Address", e.model.Address);
+                ContactData.append("c_Mobile", e.model.Mobile);
+                ContactData.append("c_Status", e.model.Status);
+                ContactData.append("c_Group", e.model.Group.join());
+                var imageFile = $("input[name=Image]")[0].files[0];
+                if (imageFile) {
+                    ContactData.append("ContactPicture", imageFile);
+                }
+                $.ajax({
+                    url: "/ContactSingle/Create",
+                    method: "post",
+                    contentType: false,
+                    processData: false,
+                    data: ContactData,
+                    success: function (result) {
+                        if (result.success) {
+                            $("#notification").getKendoNotification().show(e.model.ContactId == 0 ? "Insert Successfully!!" :
+                                "Update Successfully!!", "success");
+                            $("#myKModal").data("kendoWindow").close();
+                            loadKendo();
+                        } else {
+                            $("#notification").getKendoNotification().show(result.message, "error");
+                            $("#myKModal").data("kendoWindow").close();
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        $("#notification").getKendoNotification().show("Not inserted or updated some error", "error");
+                    }
+                });
+                validationSuccess.html("<div class='k-messagebox k-messagebox-success'>Form data is valid!</div>");
+            },
+            clear: function (ev) {
+                validationSuccess.html("");
+            }
+        });
+    }
+    function openModal() {
+        $("#myKModal").data("kendoWindow").center().open();
+    }
+    function closeModal() {
+        $("#myKModal").data("kendoWindow").close();
+    }
+    function loadKendo() {
+        const staticPath = "../../contact_images/";
+        $.ajax({
+            url: "./List/", // Replace with your API endpoint
+            type: 'GET',
+            success: function (response) {
+                console.log(response);
+                $("#grid").kendoGrid({
+                    dataSource: {
+                        data: response,
+                        schema: {
+                            model: {
+                                fields: {
+                                    c_ContactId: { type: "number" },
+                                    c_ContactName: { type: "string" },
+                                    c_Email: { type: "string" },
+                                    c_Mobile: { type: "string" },
+                                    c_Address: { type: "string" },
+                                    c_Status: { type: "string" },
+                                    c_Group: { type: "string" },
+
+                                    c_Image: { type: "string" }
+                                }
+                            }
+                        },
+                        pageSize: 4
+                    },
+                    height: 400,
+                    pageable: true,
+                    sortable: true,
+                    filterable: true,
+                    columns: [
+                        {
+                            title: "Edit",
+                            template: `<button class='k-button k-button-solid-info' onclick='editForm(#=c_ContactId#)'>&hellip;</button>`,
+                            width: 50
+                        },
+                        { field: "c_ContactName", title: "Name", width: "150px" },
+                        { field: "c_Email", title: "Email", width: "100px" },
+                        { field: "c_Mobile", title: "Mobile", width: "80px" },
+                        { field: "c_Address", title: "Address", width: "200px" },
+                        { field: "c_Status", title: "Status", width: "200px" },
+                        { field: "c_Group", title: "Group", width: "200px" },
+                        {
+                            field: "c_Image", title: "Image", template: `<img src='${staticPath}#=c_Image#' alt='ProfileImage' style='width:50px;height:50px;border-radius:50%;' />`,
+                            width: 100
+                        },
+                        {
+                            title: "Delete",
+                            template: `<button class='k-button k-button-solid-error'onclick='deleteData(#=c_ContactId#,"#=c_ContactName#")'>✘</button>`,
+                            width: 70
+                        }
+                    ],
+                });
+            },
+            error: function (xhr, status, error) {
+                $('#responseMessage').addClass("alert alert-danger");
+                $('#responseMessage').text('Error: ' + xhr.responseText);
+            }
+        });
+    }
+    function deleteData(id, name) {
+        var ans = confirm("Do you delete " + name + "?");
+        if (ans) {
+            $.ajax({
+                url: "./Delete/" + id,
+                type: 'GET',
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    window.location.reload();
+                },
+                error: function (xhr, status, error) {
+                    $('#responsemodalMessage').addClass("alert alert-danger");
+                    $('#responseModalMessage').text('Error: ' + xhr.responseText);
+                }
+            });
+        }
+    }
+</script> *@
+
+@{
+    ViewData["Title"] = "Contacts";
+    Layout = "../Shared/_Welcome.cshtml";
+}
+<div class="container mt-4">
+    <h3>Contacts</h3>
+    <button type="button" id="btnadd" class="k-button k-button-lg k-button-solid-info" onclick="addForm()">✚</button>
+</div>
+<br>
+<div id="grid"></div>
+<span id="notification"></span>
+<div id="myKModal">
+    <form id="contactForm"></form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="/lib/Kendo Library/kendo.default-v2.min.css" />
+<script src="/lib/Kendo Library/kendo.all.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        if ($.fn.kendoForm) {
+            buildForm();
+            loadWindows();
+            loadKendo();
+        } else {
+            console.error("KendoForm is not available. Ensure kendo.all.min.js is loaded.");
+        }
+    });
+
+    function loadWindows() {
+        $("#myKModal").kendoWindow({
+            width: "600px",
+            title: "Contact Form",
+            visible: false,
+            modal: true,
+            actions: ["Close"]
+        });
+        $("#notification").kendoNotification({
+            allowHideAfter: 1000,
+            width: 300,
+            position: { pinned: true, top: 30, right: 30 }
+        });
+    }
+
+    function addForm() {
+        $("#contactForm").data("kendoForm").setOptions({
+            formData: { ContactId: "0", Name: "", Email: "", Address: "", Mobile: "", Status: "A", Group: [], Image: null }
+        });
+        openModal();
+    }
+
+    function buildForm() {
+        $("#contactForm").kendoForm({
+            formData: { ContactId: "0", Name: "", Email: "", Address: "", Mobile: "", Status: "A", Group: [], Image: null },
+            items: [
+                { field: "ContactId", label: "", editor: function (container, options) { $('<input type="hidden" name="' + options.field + '" value="0" />').appendTo(container); } },
+                { field: "Name", label: "Name", validation: { required: true } },
+                { field: "Email", label: "Email", validation: { required: true, email: true } },
+                { field: "Address", label: "Address" },
+                { field: "Mobile", label: "Mobile" },
+                { field: "Status", label: "Status", editor: "DropDownList", editorOptions: { dataSource: ["Favourate", "Active", "Inactive"], optionLabel: "Select Status" } },
+                { field: "Group", label: "Group", editor: "MultiSelect", editorOptions: { dataSource: ["Relative", "Friend", "Social", "Professional"], placeholder: "Select Group" } },
+                { field: "Image", label: "Image", editor: function (container, options) { $('<input type="file" name="' + options.field + '" />').appendTo(container).kendoUpload(); } }
+            ],
+            buttonsTemplate: '<button type="submit" class="k-button k-button-lg k-button-solid-info">Save</button>' +
+                '<button type="reset" class="k-button k-button-lg k-button-solid-base">Clear</button>',
+            submit: function (e) {
+                e.preventDefault();
+                console.log("Form submitted", e.model);
+                $("#myKModal").data("kendoWindow").close();
+                loadKendo();
+            }
+        });
+    }
+
+    function openModal() {
+        $("#myKModal").data("kendoWindow").center().open();
+    }
+
+    function loadKendo() {
+        $.ajax({
+            url: "./List/",
+            type: 'GET',
+            success: function (response) {
+                $("#grid").kendoGrid({
+                    dataSource: { data: response, pageSize: 4 },
+                    height: 400,
+                    pageable: true,
+                    sortable: true,
+                    filterable: true,
+                    columns: [
+                        { title: "Edit", template: `<button class='k-button k-button-solid-info' onclick='editForm(#=c_ContactId#)'>&hellip;</button>`, width: 50 },
+                        { field: "c_ContactName", title: "Name", width: "150px" },
+                        { field: "c_Email", title: "Email", width: "100px" },
+                        { field: "c_Mobile", title: "Mobile", width: "80px" },
+                        { field: "c_Address", title: "Address", width: "200px" },
+                        { field: "c_Status", title: "Status", width: "200px" },
+                        { field: "c_Group", title: "Group", width: "200px" },
+                        { title: "Delete", template: `<button class='k-button k-button-solid-error' onclick='deleteData(#=c_ContactId#)'>✘</button>`, width: 70 }
+                    ]
+                });
+            }
+        });
+    }
+
+    function deleteData(id) {
+        if (confirm("Do you want to delete this contact?")) {
+            $.ajax({
+                url: "./Delete/" + id,
+                type: 'GET',
+                success: function () {
+                    loadKendo();
+                }
+            });
+        }
+    }
+</script>

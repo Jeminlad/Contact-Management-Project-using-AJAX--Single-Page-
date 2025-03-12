@@ -253,6 +253,7 @@ C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using A
 C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cache
 C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.RazorAssemblyInfo.cs
+C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\ContactProject.sourcelink.json
 C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Mayur\Desktop\Casepoint\Practicals\.NET Core MVC\ContactProject using AJAX\obj\Debug\net8.0\staticwebassets\msbuild.ContactProject.Microsoft.AspNetCore.StaticWebAssets.props
