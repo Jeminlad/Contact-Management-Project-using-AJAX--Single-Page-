@@ -148,7 +148,7 @@ public class CotactRepository : IContactInterface
         t_Contact contact = null;
         if (dr.Read())
         {
-            Console.WriteLine("@@@@@@@@"+dr["c_email"]);
+            Console.WriteLine("@@@@@@@@" + dr["c_email"]);
             contact = new t_Contact()
             {
                 c_ContactId = Convert.ToInt32(dr["c_contactid"]),
@@ -218,5 +218,5 @@ public class CotactRepository : IContactInterface
         }
     }
 
-    }
+}
 
